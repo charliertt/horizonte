@@ -1,11 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,24 +22,38 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            left: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .whatsapp-float i {
+            margin-top: 15px;
+        }
+    </style>
 </head>
 
 <body class="header-2">
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
     <div class="site-preloader-wrap">
         <div class="spinner"></div>
-    </div><!-- /.site-preloader-wrap -->
-
-    <header class="header header-two">
+    </div><header class="header header-two">
         <div class="top-header-two top-bar">
             <div class="container">
                 <div class="top-bar-inner">
                     <div class="top-left">
                         <ul>
-                            <li>Phone: <a href="tel:3502355000">350-235-5000</a> /
+                            <li>Teléfono: <a href="tel:3502355000">350-235-5000</a> /
                                 <a href="tel:3508142424">350-814-2424</a>
                             </li>
 
@@ -55,22 +63,17 @@
                         </ul>
                     </div>
                     <div class="top-right">
-                        <ul class="top-social">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            
-                        </ul>
+                        
                     </div>
                 </div>
             </div>
-        </div><!-- /.top-bar -->
-        <div class="mid-header">
+        </div><div class="mid-header">
             <div class="container">
                 <div class="mid-header-inner">
                     <div class="header-logo d-flex align-items-center">
                         <a href="index.html">
-                            <img src="assets/img/logo.png" alt="Logo" height="80" width="70" class="" />
+                            <img src="assets/img/logo.png" alt="Logo" height="80" width="70" class="mr-2" />
+                            <h4 class="mb-0">Aseo Horizonte</h4>
                            
                         </a>
                     </div>
@@ -98,8 +101,7 @@
                     </div>
                 </div>
             </div>
-        </div><!-- /.mid-header -->
-        <div class="primary-header-two primary-header">
+        </div><div class="primary-header-two primary-header">
             <div class="container">
                 <div class="primary-header-inner">
                     <div class="header-menu-wrap w-100">
@@ -112,11 +114,9 @@
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
                           </ul>
                           
-                    </div><!-- /.header-menu-wrap -->
-                    <div class="header-right">
+                    </div><div class="header-right">
                         <div class="search-icon dl-search-icon"></div>
                         
-                        <!-- Burger menu -->
                         <div class="mobile-menu-icon">
                             <div class="burger-menu">
                                 <div class="line-menu line-half first-line"></div>
@@ -124,22 +124,15 @@
                                 <div class="line-menu line-half last-line"></div>
                             </div>
                         </div>
-                    </div><!-- /.header-right -->
-                </div><!-- /.primary-header-inner -->
-            </div>
-        </div><!-- /.primary-header-two -->
-    </header><!-- /.header-two -->
-
-    <div id="dl-popup-search-box">
+                    </div></div></div>
+        </div></header><div id="dl-popup-search-box">
         <div class="box-inner-wrap d-flex align-items-center">
             <form id="form" action="#" method="get" role="search">
                 <input type="text" name="s" placeholder="Type keywords here..." />
                 <button id="popup-search-button" type="submit" name="submit"><i class="fas fa-search"></i></button>
             </form>
         </div>
-    </div><!-- /#dl-popup-search-box -->
-
-    <div id="main-slider" class="dl-slider">
+    </div><div id="main-slider" class="dl-slider">
         <div class="single-slide">
             <div class="bg-img kenburns-top-right" style=background-image:url(assets/img/background_uno.png)></div>
             <div class="overlay"></div>
@@ -163,16 +156,14 @@
                         </div>
                         <div class="dl-btn-group">
                             <div class="inner-layer">
-                                <a href="#" class="default-btn" data-animation="fade-in-left" data-delay="2s">Nuestros Servicios <span></span></a>
+                                <a href="#servicios" class="default-btn" data-animation="fade-in-left" data-delay="2s">Nuestros Servicios <span></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Slide-1-->
-        <!--Slide-1-->
-<div class="single-slide">
+        <div class="single-slide">
     <div class="bg-img kenburns-top-right" style="background-image:url(assets/img/background_dos.png);"></div>
     <div class="overlay"></div>
     <div class="slider-content-wrap d-flex align-items-center text-left">
@@ -198,7 +189,7 @@
                 </div>
                 <div class="dl-btn-group">
                     <div class="inner-layer">
-                        <a href="#" class="default-btn" data-animation="fade-in-left" data-delay="2s">Ver Administración <span></span></a>
+                        <a href="#servicios" class="default-btn" data-animation="fade-in-left" data-delay="2s">Ver Servicios <span></span></a>
                     </div>
                 </div>
             </div>
@@ -206,9 +197,7 @@
     </div>
 </div>
 
-        <!--Slide-2-->
-        <!--Slide-2-->
-<div class="single-slide">
+        <div class="single-slide">
     <div class="bg-img kenburns-top-right" style="background-image:url(assets/img/background_tres.png);"></div>
     <div class="overlay"></div>
     <div class="slider-content-wrap d-flex align-items-center text-left">
@@ -233,7 +222,7 @@
                 </div>
                 <div class="dl-btn-group">
                     <div class="inner-layer">
-                        <a href="#" class="default-btn" data-animation="fade-in-left" data-delay="2s">Ver Servicios <span></span></a>
+                        <a href="#servicios" class="default-btn" data-animation="fade-in-left" data-delay="2s">Ver Servicios <span></span></a>
                     </div>
                 </div>
             </div>
@@ -241,10 +230,7 @@
     </div>
 </div>
 
-        <!--Slide-3-->
-    </div><!-- slider-section -->
-
-    <section class="about-section padding bg-grey" id="nosotros">
+        </div><section class="about-section padding bg-grey" id="nosotros">
         <div class="container">
             <div class="about-wrap row">
                 <div class="col-lg-7 sm-padding wow fadeInLeft" data-wow-delay="200ms">
@@ -254,8 +240,7 @@
                             <h2>Calidad y Confianza <br> para tus Espacios</h2>
                             <p>Somos una empresa que brinda los mejores servicios en aseo y administración,<br>
                                 fortaleciendo procesos y generando estrategias para el mejoramiento.</p>
-                        </div><!-- /.section-heading -->
-                        <ul class="about-list">
+                        </div><ul class="about-list">
                             <li><i class="fas fa-check"></i>Garantizamos eficiencia y el buen manejo de los recursos.
                             </li>
                             <li><i class="fas fa-check"></i>Promovemos el cuidado por el medio ambiente.</li>
@@ -265,7 +250,7 @@
                             <li><i class="fas fa-check"></i>Trabajamos con responsabilidad, seriedad y compromiso.</li>
                         </ul>
                         <div class="sign">
-                            <a href="#" class="default-btn">Más información <span></span></a>
+                      
                           
                         </div>
                     </div>
@@ -277,39 +262,27 @@
                 </div>
             </div>
         </div>
-    </section><!-- ./ about-section -->
-
-    <section class="service-section padding" id="servicios">
+    </section><section class="service-section padding" id="servicios">
         <div class="container">
-            <!-- Fila del Encabezado Principal -->
             <div class="row d-flex align-items-center mb-40 wow fadeInUp" data-wow-delay="200ms">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <!-- Subtítulo de la sección -->
                         <h4 class="sub-heading">NUESTROS SERVICIOS</h4>
-                        <!-- Título principal -->
                         <h2>Soluciones Integrales para la Gestión y Mantenimiento</h2>
-                    </div><!-- /.section-heading -->
-                </div>
+                    </div></div>
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <!-- Párrafo introductorio -->
                         <p>Ofrecemos una gama completa de servicios diseñados para optimizar la administración, operación y mantenimiento de su propiedad con eficiencia y responsabilidad.</p>
-                        <!-- Botón de llamada a la acción -->
-                        <a href="#" class="default-btn">Contactanos <span></span></a>
-                    </div><!-- /.section-heading -->
-                </div>
+                        <a href="contact.html" class="default-btn">Contactanos <span></span></a>
+                    </div></div>
             </div>
     
-            <!-- Fila de las Tarjetas de Servicio -->
             <div class="row">
-                <!-- Tarjeta de Servicio 1: Administración -->
                 <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="300ms">
                     <div class="service-box">
                         <div class="service-content">
                             <div class="service-icon">
-                                <i class="dl dl-factory-1"></i> <!-- Icono -->
-                            </div>
+                                <i class="dl dl-factory-1"></i> </div>
                             <h3>Administración de P.H.</h3>
                             <p>Gestionamos centros comerciales y residencias bajo la Ley 675, garantizando el cuidado de bienes comunes.</p>
                             <a href="#" class="read-more">Leer Más</a>
@@ -320,13 +293,11 @@
                     </div>
                 </div>
     
-                <!-- Tarjeta de Servicio 2: Asesoría -->
                 <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="400ms">
                     <div class="service-box">
                         <div class="service-content">
                             <div class="service-icon">
-                                <i class="dl dl-conveyor-6"></i> <!-- Icono -->
-                            </div>
+                                <i class="dl dl-conveyor-6"></i> </div>
                             <h3>Asesoría Administrativa</h3>
                             <p>Optimizamos la gestión de su empresa, desde la creación de manuales hasta la administración del talento humano.</p>
                             <a href="#" class="read-more">Leer Más</a>
@@ -337,13 +308,11 @@
                     </div>
                 </div>
     
-                <!-- Tarjeta de Servicio 3: Servicios Generales -->
                 <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="500ms">
                     <div class="service-box">
                         <div class="service-content">
                             <div class="service-icon">
-                               <i class="dl dl-factory-4"></i> <!-- Icono -->
-                            </div>
+                               <i class="dl dl-factory-4"></i> </div>
                             <h3>Aseo y Servicios Generales</h3>
                             <p>Proveemos personal especializado para el mantenimiento impecable de todas las áreas locativas.</p>
                             <a href="#" class="read-more">Leer Más</a>
@@ -354,13 +323,11 @@
                     </div>
                 </div>
     
-                <!-- Tarjeta de Servicio 4: Digitalización -->
                 <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="600ms">
                     <div class="service-box">
                         <div class="service-content">
                             <div class="service-icon">
-                                <i class="dl dl-industrial-robot-9"></i> <!-- Icono -->
-                            </div>
+                                <i class="dl dl-industrial-robot-9"></i> </div>
                             <h3>Digitalización</h3>
                             <p>Modernizamos su operación digitalizando documentos y procesos para un acceso rápido y eficiente.</p>
                             <a href="#" class="read-more">Leer Más</a>
@@ -372,18 +339,14 @@
                 </div>
             </div>
         </div>
-    </section><!-- ./ service-section -->
-
-    <section class="working-process bg-grey">
+    </section><section class="working-process bg-grey">
         <div class="container">
-            <!-- Encabezado de la sección -->
             <div class="section-heading text-center mb-40 wow fadeInUp" data-wow-delay="200ms">
                 <h4 class="sub-heading">NUESTRA METODOLOGÍA</h4>
                 <h2>Nuestro Proceso de Trabajo Garantiza la Calidad</h2>
             </div>
             
             <div class="working-wrap row">
-                <!-- Paso 1: Diagnóstico y Planificación -->
                 <div class="col-lg-4 col-md-6 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="200ms">
                     <div class="working-process-box">
                         <div class="arrow arrow-up"></div>
@@ -398,13 +361,11 @@
                     </div>
                 </div>
                 
-                <!-- Paso 2: Ejecución y Gestión -->
                 <div class="col-lg-4 col-md-6 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="400ms">
                     <div class="working-process-box">
                         <div class="arrow arrow-down"></div>
                         <div class="icon-box">
-                            <i class="dl dl-conveyor-6"></i> <!-- Icono cambiado para diferenciar -->
-                            <span>2</span>
+                            <i class="dl dl-conveyor-6"></i> <span>2</span>
                         </div>
                         <div class="content-box">
                             <h3 class="heading">Ejecución y Gestión</h3>
@@ -413,12 +374,10 @@
                     </div>
                 </div>
     
-                <!-- Paso 3: Supervisión y Mejora Continua -->
                 <div class="col-lg-4 col-md-6 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="600ms">
                     <div class="working-process-box">
                         <div class="icon-box">
-                            <i class="dl dl-factory-4"></i> <!-- Icono cambiado para diferenciar -->
-                            <span>3</span>
+                            <i class="dl dl-factory-4"></i> <span>3</span>
                         </div>
                         <div class="content-box">
                             <h3 class="heading">Supervisión y Mejora</h3>
@@ -429,21 +388,15 @@
             </div>
         </div>
     </section>
-    <!-- ./ working-process -->
-
     <section class="feature-section">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6 offset-lg-6 no-padding">
                     <div class="feature-wrap">
                         <div class="section-heading mb-40">
-                            <!-- Subtítulo de la sección -->
                             <h4 class="sub-heading">Nuestros Pilares Fundamentales</h4>
-                            <!-- Título principal -->
                             <h2>Compromiso, Experiencia y Eficiencia a su Servicio</h2>
-                        </div><!-- /.section-heading -->
-                        <ul class="feature-list">
-                            <!-- Característica 1: Cumplimiento Normativo -->
+                        </div><ul class="feature-list">
                             <li class="wow fadeInUp" data-wow-delay="200ms">
                                 <i class="dl dl-factory-3"></i>
                                 <div class="feature-content">
@@ -451,7 +404,6 @@
                                     <p>Operamos con total responsabilidad y en estricto apego a la normativa vigente, como la Ley 675, para su completa tranquilidad.</p>
                                 </div>
                             </li>
-                            <!-- Característica 2: Equipo Experto -->
                             <li class="wow fadeInUp" data-wow-delay="300ms">
                                 <i class="dl dl-d-printer-2"></i>
                                 <div class="feature-content">
@@ -459,7 +411,6 @@
                                     <p>Contamos con un equipo multidisciplinario y certificado en las áreas administrativa, contable, legislativa y operativa.</p>
                                 </div>
                             </li>
-                            <!-- Característica 3: Eficiencia y Optimización -->
                             <li class="wow fadeInUp" data-wow-delay="400ms">
                                 <i class="dl dl-loader"></i>
                                 <div class="feature-content">
@@ -477,17 +428,12 @@
     <section class="project-section">
         <div class="container">
             <div class="section-heading mb-40 text-center wow fadeInUp" data-wow-delay="200ms">
-                <!-- Nuevo subtítulo para la sección -->
                 <h4 class="sub-heading"><strong>NUESTRAS ÁREAS DE ESPECIALIZACIÓN</strong></h4>
-                <!-- Nuevo título principal -->
                 <h2><strong>Cubrimos Cada Detalle <br> para su Tranquilidad</strong></h2>
-            </div><!-- /.section-heading -->
-            <div class="slider project-carousel nav-style carousel-dots">
+            </div><div class="slider project-carousel nav-style carousel-dots">
                 
-                <!-- Especialización 1: Administración de P.H. -->
                 <div class="project-box">
                     <div class="project-thumb">
-                        <!-- Sugerencia: Usar una imagen de una fachada de edificio o una reunión de consejo -->
                         <img src="assets/img/propiedad.jpeg" alt="Administración de Propiedad Horizontal" style="opacity:0.7;">
                         <a href="assets/img/propiedad.jpeg" class="venobox project-lightbox"><i class="fas fa-expand"></i></a>
                     </div>
@@ -498,10 +444,8 @@
                     <div class="overlay"></div>
                 </div>
                 
-                <!-- Especialización 2: Asesoría y Procesos -->
                 <div class="project-box">
                     <div class="project-thumb">
-                        <!-- Sugerencia: Usar una imagen de personas en una oficina revisando documentos -->
                         <img src="assets/img/asesoria-d.jpg" alt="Asesoría y Procesos Administrativos" style="opacity: 0.7;">
                         <a href="assets/img/asesoria-d.jpg" class="venobox project-lightbox"><i class="fas fa-expand"></i></a>
                     </div>
@@ -512,10 +456,8 @@
                     <div class="overlay"></div>
                 </div>
                 
-                <!-- Especialización 3: Aseo y Cafetería -->
                 <div class="project-box">
                     <div class="project-thumb">
-                        <!-- Sugerencia: Usar una imagen de personal de aseo profesional en acción -->
                         <img src="assets/img/2.png" alt="Servicios de Aseo y Cafetería" style="opacity: 0.6;">
                         <a href="assets/img/2.png" class="venobox project-lightbox"><i class="fas fa-expand"></i></a>
                     </div>
@@ -526,10 +468,8 @@
                     <div class="overlay"></div>
                 </div>
                 
-                <!-- Especialización 4: Jardinería y Zonas Comunes -->
                 <div class="project-box">
                     <div class="project-thumb">
-                        <!-- Sugerencia: Usar una imagen de un jardinero o una piscina bien cuidada -->
                         <img src="assets/img/3.png" alt="Jardinería y Zonas Comunes" style="opacity: 0.7;">
                         <a href="assets/img/3.png" class="venobox project-lightbox"><i class="fas fa-expand"></i></a>
                     </div>
@@ -540,10 +480,8 @@
                     <div class="overlay"></div>
                 </div>
                 
-                <!-- Especialización 5: Logística de Eventos -->
                 <div class="project-box">
                     <div class="project-thumb">
-                        <!-- Sugerencia: Usar una imagen de una asamblea o evento organizado -->
                         <img src="assets/img/asamblea.jpeg" alt="Logística para Asambleas" style="opacity: 0.7;">
                         <a href="assets/img/asamblea.jpeg" class="venobox project-lightbox"><i class="fas fa-expand"></i></a>
                     </div>
@@ -556,30 +494,20 @@
             </div>
         </div>
     </section>
-    <!-- /. project-section -->
-
     <section class="cta-section padding">
         <div class="container">
             <div class="section-heading mb-40 text-center wow fadeInUp" data-wow-delay="200ms">
                 <h3><strong>Soluciones Integrales</S></strong></h3>
                 <h2 class="ms-2 text-dark"><strong>Evaluamos Necesidades, Creamos Soluciones</strong></h2>
-                <a href="#" class="default-btn">Solicitar Propuesta<span></span></a>
-            </div><!-- /.section-heading -->
-        </div>
-    </section><!-- ./ cta-section -->
-
-    <!-- /. counter-section -->
-
-    <!-- ./ testimonial-section -->
-
-    <section class="blog-section bg-grey padding">
+                <a href="contact.html" class="default-btn">Solicitar Propuesta<span></span></a>
+            </div></div>
+    </section><section class="blog-section bg-grey padding">
         <div class="container">
           <div class="section-heading mb-40 text-center wow fadeInUp" data-wow-delay="200ms">
             <h4 class="sub-heading">Destacamos</h4>
             <h2>Gestión Integral <br>Operativa y Administrativa</h2>
           </div>
           <div class="row blog-wrap">
-            <!-- Servicio 1 -->
             <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
               <div class="blog-item card w-100">
                 <div class="blog-thumb">
@@ -595,7 +523,6 @@
                 </div>
               </div>
             </div>
-            <!-- Repite para los demás servicios -->
             <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
               <div class="blog-item card w-100">
                 <div class="blog-thumb">
@@ -631,8 +558,6 @@
         </div>
       </section>
       
-    <!-- ./blog-section -->
-
     <section class="sponsor-section">
         <div class="container">
           <div class="slider sponsor-carousel nav-style">
@@ -652,9 +577,7 @@
           </div>
         </div>
       </section>
-      <!-- ./ sponsor-section -->
-
-    <section class="widget-section padding">
+      <section class="widget-section padding">
         <div class="widget-bg"></div>
         <div class="container">
             <div class="widget-wrap row">
@@ -739,19 +662,19 @@
                 </div>
             </div>
         </div>
-    </section><!-- ./ widget-section -->
-
+    </section>
     <footer class="footer-section text-center">
         <div class="container">
            
         </div>
-    </footer><!-- /.footer-section -->
-
-    <div id="scrollup">
+    </footer><div id="scrollup">
         <button id="scroll-top" class="scroll-to-top"><i class="fas fa-angle-up"></i></button>
     </div>
 
-    <!-- jQuery Lib -->
+    <a href="https://wa.me/573502355000" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/vendor/popper.min.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
